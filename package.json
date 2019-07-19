@@ -8,7 +8,7 @@
     "react-scripts": "3.0.1"
   },
   "author": "Freddy Polanía",
-  "email" : "fpolania@gmail.com",
+  "email": "fpolania@gmail.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

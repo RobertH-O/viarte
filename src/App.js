@@ -1,16 +1,16 @@
 import React from 'react'
 import Header from './components/header'
+import Somos from './components/somos'
+import Nosotros from './components/nosotros'
 import Footer from './components/footer';
 import './App.css'
 
 const App = () => (  
 
     <div className="App">
-      <Header name="Novanet"/>                  
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <p>Hola Roberto</p>
+      <Header/>    
+      <Somos/> 
+      <Nosotros/>            
       <a
         className="App-link"
         href="https://reactjs.org"

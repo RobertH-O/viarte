@@ -1,15 +1,35 @@
 import React from 'react';
-import logo from '../images/logo.svg'
 import '../App.css'
 
- const Header = (props) =>  (
+ const Header = () =>  (
   
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />  
-          <p>Hello, {props.name}</p>        
-        </header>
-      </div>
+      <header className="menu"> 
+          <ul className="container flex">
+              <li> 
+                <a href="#Inicio">
+                  Inicio
+                </a>
+              </li>
+
+              <li> 
+                <a href="#Nosotros">
+                  Nosotros
+                </a>
+              </li>
+
+              <li> 
+                <a href="#Productos">
+                  Productos y servicios
+                </a>
+              </li>
+
+              <li> 
+                <a href="#Contacto">
+                  Contacto
+                </a>
+              </li>
+          </ul>  
+      </header>
    
  )
   

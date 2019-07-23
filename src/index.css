@@ -1,26 +1,23 @@
-body {
-  margin: 0;
-  font-family:'Lato', sans-serif;;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+* {padding:0; margin:0; box-sizing: border-box}
+body, input, textarea {margin: 0; font-family:'Lato', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+.flex {  display: flex;
+    flex-wrap: nowrap;}
+container, .container {width:1280px; margin:0 auto}
+.center {display:flex; flex-direction: row; align-items: center; justify-content: center}
+.cols-2, .cols-3 {padding: 0 2em}
+.cols-2 {width:50%}
+.cols-3 {width:33%}
 
-h1, h2, h3, h4, .Changaone {font-family: 'Changa One', cursive;}
-
-code {
-  font-family:'Lato', sans-serif;
-}
-
-* {padding:0; margin:0}
-
-li {list-style:none;}
+h1, h2, h3, h4, .Changaone {font-family: 'Changa One', cursive; font-weight:500}
+h1 {font-size:2.5em; text-align: center}
+h2 {font-size:2.2em}
+h3 {font-size:1.8em}
+h4 {font-size:1.7em}
+p, li {font-weight:300; color:#514b49}
+li {list-style:none}
 a {text-decoration:none}
-p {color:#514b49}
+code {font-family:'Lato', sans-serif}
 
-.flex {display: flex; flex-direction: row; flex-wrap:wrap}
-.center {display:flex; flex-direction: row; align-items: center; justify-content: center;}
-.container {width:1280px; margin:0 auto}
-.borderbox {box-sizing: border-box}
 
 .azul {color:#00a5e7}
 .azul-bg {background:#00a5e7}

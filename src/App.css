@@ -1,31 +1,65 @@
-h3 {font-size:33px}
+/*Sección Menú*/
+.menu {background-color:#00a5e7}
+  .menu li {width:25%; text-align:center}
+  .menu li:hover {transition: 0.3s; background:#007CAD}
+  .menu li a {display:block; padding:0.8em 0; font-weight:600; font-size:1.2em; color:#fff}
 
 
-.menu {text-align:center; background-color:#00a5e7}
-.menu li {flex-grow:4}
-.menu li a {cursor:pointer; display:block; padding:0.8em 0; font-weight:600; font-size:20px; color:#fff}
-.menu li a:hover {transition: 0.3s; background:#007CAD}
+/*Sección Somos*/
+#Inicio {position:relative; background-image: url("images/caracas-bg.jpg"); background-position:center; background-size:cover; background-repeat:no-repeat}
 
+  #Inicio .col-1 {padding:0 2em 0 0; width:42%}
+  #Inicio .col-2 {padding:0 0 0 2em; width:58%}
 
-.somos {position:relative; background-image: url("images/Caracas_Panoramica.jpg");     background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;}
+  #Inicio .logo {margin-top:6em}
 
-.somos .somos-col-1 {padding:0 2em 0 0; width:42%}
-.somos .somos-col-2 {padding:0 0 0 2em; width:58%}
-
-.somos .valla img {margin-top:6em; width:100%}
-
-.somos .inf {font-weight:300; font-style:italic; font-size:33px; padding:0.7em; background:#fff; --webkit-box-shadow:10px 15px 15px -1px rgba(45,41,41,0.7);
+  #Inicio .info {font-style:italic; font-size:2em; padding:0.7em; background:#fff; --webkit-box-shadow:10px 15px 15px -1px rgba(45,41,41,0.7);
   -moz-box-shadow: 10px 15px 15px -1px rgba(45,41,41,0.7);
   box-shadow: 10px 15px 15px -1px rgba(45,41,41,0.7);}
-.somos .inf span {font-weight:400; font-style:normal}
+  #Inicio .info span {font-style:normal}
 
-.somos .ciu-gris {position:absolute; bottom:0; width:100%; height: 7em;
-  background-image: url(/static/media/ciu-gris.a9f574e0.svg);
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;}
+  #Inicio .ciudad-gris {position:absolute; bottom:0; width:100%; height:7em; background-image:url("images/ciudad-gris.svg"); background-position:bottom; background-size:cover; background-repeat:no-repeat}
 
 
- .nosotros {padding:4em 0; background-image: linear-gradient(#c0bfbf, white);}
+/*Sección Nosotros*/
+#Nosotros {padding:6em 0; background-image: linear-gradient(#c0bfbf, #fff);}
+
+  .ficha {position:relative; min-height: 22em; border-radius:10px; padding:1.5em; background:#f4f2f2; border:1px solid #c9c9c9}
+  .ficha-top {position:absolute; top:-1.5em; left:-1.5em}
+  .ficha-ico {width:7em; height:7em; margin-right:1.5em; border-radius:50%; background:#fff; box-shadow:2px 1px 3px -1px rgba(0,0,0,0.3)}
+  .ficha-ico img {width:65%}
+  .ficha-bot {margin-top:5em} 
+  .ficha-bot p, .ficha-bot li {font-size:1.2em; line-height:1.4em} 
+
+
+/*Sección Productos y servicos*/
+.pro-ser {height:17em; padding-top:6em}
+  .pro-ser .pro-ser-img {width:33%; margin-right:1.5em; clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 70%); background:lightsteelblue}
+  .pro-ser .pro-ser-img img {}
+  .pro-ser .pro-ser-txt {width:66%}
+  .pro-ser .pro-ser-txt p {font-size:1.3em; line-height:1.4em}
+
+
+/*Sección Contacto*/
+#Contacto {position:relative; padding:6em 0 10em; background-image: linear-gradient(#fff, #c0bfbf);}
+
+  .con-inf {height:30em; text-align:center; background-image: url("images/contacto.png"); background-position:center; background-repeat:no-repeat}
+  .con-inf, .mail-tlf {padding-top:3.5em}
+  .mail-tlf p {font-weight:900; font-size:1.3em; line-height:1.4em}
+
+  form {margin:2em}
+  form input, form textarea {width:100%; font-size:1.1em; padding:0.5em 0;  margin-bottom:2em;  background:none; border:none; color:#84828f; border-bottom:1px solid #f27328;}
+  form input[type=submit] {cursor:pointer; color:#fff; background:#f27328}
+  :focus {outline-style:none;
+    box-shadow:none;}
+
+  #Contacto .ciudad-blanca {position:absolute; bottom:0; width:100%; height:7em; background-image:url("images/ciudad-blanca.svg"); background-position:bottom; background-size:cover; background-repeat:no-repeat}
+
+
+/*Sección Pie*/
+footer {padding:3.5em 0}  
+  footer .logo {width:15%; margin:0 0 0 2em}
+  .menu-pie {width:85%}
+  .menu-pie li {width:25%; text-align:center}
+  .menu-pie li a {padding:0.8em 0; font-weight:600; font-size:1em; color:#7c7c7c}
+  .menu-pie li a:hover {transition: 0.3s; color:#00a5e7}

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css'
 
- const Header = () =>  (
+ const Menu = () =>  (
   
       <header className="menu"> 
           <ul className="container flex">
@@ -33,4 +33,4 @@ import '../App.css'
    
  )
   
-export default Header  
+export default Menu 

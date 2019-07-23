@@ -1,0 +1,81 @@
+
+:root {
+  --col60:60%;
+  --col50:50%;
+  --col40:40%;
+  --col30:30%;
+  --col25:25%;
+
+  --azul:#00a5e7;
+  --naranja:#f37021;
+  --gris:#7c7c7c;
+  --griscla:#c0bfbf;
+  --grisosc:#514b49;
+  --blanco:#fff;
+}
+
+h1 {color:var(--naranja);}
+
+
+/*Sección Menú*/
+.menu {background-color: var(--azul);}
+  .menu li {width:var(--col25); padding:0.8em 0; text-align:center}
+  .menu li a {font-weight:600; font-size:1.2em; color:var(--blanco);}
+
+
+/*Sección Somos*/
+#Inicio {position:relative; background-image: url("images/caracas-bg.jpg"); background-position:center; background-size:cover; background-repeat:no-repeat}
+
+  .ini-logo {padding:0 2em 0 0; width:var(--col40)}
+  .ini-inf {padding:0 0 0 2em; width:var(--col60)}
+
+  .ini-logo img {margin-top:6em}
+
+  .ini-inf p {font-style:italic; font-size:2em; padding:0.7em; color:var(--grisosc); background-color:var(--blanco); --webkit-box-shadow:10px 15px 15px -1px rgba(45,41,41,0.7);
+  -moz-box-shadow: 10px 15px 15px -1px rgba(45,41,41,0.7);
+  box-shadow: 10px 15px 15px -1px rgba(45,41,41,0.7); }
+  .ini-inf p span {font-style:normal}
+
+  .ciudad-gris {position:absolute; bottom:0; width:-moz-available; height:7em; background-image:url("images/ciudad-gris.svg"); background-position:bottom; background-size:cover; background-repeat:no-repeat}
+
+/*Sección Nosotros*/
+#Nosotros {padding:6em 0; background-image: linear-gradient(var(--griscla), var(--blanco));}
+
+  .ficha {width:var(--col30); margin:2em 1em; position:relative; min-height: 22em; border-radius:10px; padding:1.5em; background-color:var(--blanco); border:1px solid var(--griscla)}
+  .ficha-cabecera {position:absolute; top:-1.5em; left:-1.5em; color:var(--naranja);}
+  .ficha-icono {width:7em; height:7em; margin-right:1.5em; border-radius:50%; background-color:var(--blanco); box-shadow:2px 1px 3px -1px rgba(0,0,0,0.3)}
+  .ficha-icono img {width:65%}
+  .ficha-contenido {margin-top:5em} 
+  .ficha-contenido p, .ficha-contenido li {padding:0.5em; font-size:1.2em; line-height:1.4em; color:var(--gris)} 
+
+/*Sección Productos y servicos*/
+  .pro-ser {display:flex; flex-wrap:nowrap; padding:6em 2em 0; width:var(--col50); height:17em}
+  .pro-ser .pro-ser-img {width:33%; margin-right:1.5em; clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 70%); background:var(--gris);}
+  .pro-ser .pro-ser-txt {width:66%; color:var(--gris)}
+  .pro-ser .pro-ser-txt p {font-size:1.3em; line-height:1.4em}
+
+
+/*Sección Contacto*/
+#Contacto {position:relative; padding:6em 0 10em; background-image: linear-gradient(var(--blanco), var(--griscla));}
+
+  .con-inf {width:var(--col50); padding-top:4em; height:30em; text-align:center; background-image: url("images/contacto.png"); background-position:center; background-repeat:no-repeat}
+  .mail-tlf {padding-top:2.8em}
+  .mail-tlf i {font-size:1.3em; color:var(--azul);}
+  .mail-tlf p {font-weight:900; font-size:1.3em; line-height:1.4em; color:var(--grisosc);}
+
+  .con-form {width:var(--col50); margin:2.5em 0}
+  form { margin:0 2em}
+  form input, form textarea {width:-moz-available; font-size:1.1em; padding:0.5em 0;  margin-bottom:2em; background:none; border:none; color:var(--grisosc); border-bottom:1px solid var(--naranja)}
+  form input[type=submit] {cursor:pointer; color:var(--blanco); background:var(--naranja);}
+  :focus {outline-style:none; box-shadow:none}
+
+  #Contacto .ciudad-blanca {position:absolute; bottom:0; width:-moz-available; height:7em; background-image:url("images/ciudad-blanca.svg"); background-position:bottom; background-size:cover; background-repeat:no-repeat}
+
+
+/*Sección Pie*/
+footer {padding:3.5em 0}  
+  footer .logo-pie {width:15%}
+  footer .logo-pie img {margin:0 0 0 2em}
+  .menu-pie {width:85%}
+  .menu-pie li {width:var(--col25); text-align:center}
+  .menu-pie li a {padding:0.8em 0; font-weight:600; font-size:1em; color:var(--gris)}

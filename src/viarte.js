@@ -5,12 +5,11 @@ import Nosotros from './components/nosotros'
 import Productos from './components/productos'
 import Contacto from './components/contacto'
 import Footer from './components/footer';
-import './App.css'
+import './viarte.css'
 
+const Viarte = () => (  
 
-const App = () => (  
-
-    <div className="App">
+    <div className="Viarte">
       <Menu/>    
       <Inicio/> 
       <Nosotros/>
@@ -21,4 +20,4 @@ const App = () => (
 
   )
 
-export default App;
+export default Viarte;
